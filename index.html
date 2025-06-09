@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>Victor Anghinoni</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#trabalhos">Trabalhos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#" role="button">Baixar Currículo</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid">
+        <section>
+          <hgroup>
+            <h2>Olá, Me chamo Victor Anghinoni</h2>
+            <h3>Sou desenvolvedor de FrontEnd! Veja um pouco do meu trabalho!</h3>
+          </hgroup>
+          <p>
+            Sou um profissional versátil com experiência em design gráfico,
+            desenvolvimento web e produção de conteúdo digital.
+          </p>
+
+            <img src="img/top2.webp">
+
+          <h3 id="trabalhos">Experiência e Trabalhos</h3>
+          <p>
+            - Criação de logotipos para empresas locais<br />
+            - Desenvolvimento de sites institucionais e landing pages<br />
+            - Design de identidade visual e materiais gráficos<br />
+            - Edição de vídeos para YouTube e Instagram<br />
+            - Gestão de redes sociais para marcas
+          </p>
+
+          <h3>Habilidades</h3>
+          <p>
+            - Adobe Photoshop, Illustrator, Premiere Pro<br />
+            - HTML, CSS, JavaScript<br />
+            - Figma e design UX/UI básico<br />
+            - Criatividade, organização e visão estratégica
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2 id="contato">Entre em contato comigo</h2>
+            <h3>Estou disponível para novos projetos e colaborações</h3>
+          </hgroup>
+          <form class="grid">
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Seu nome"
+              aria-label="Seu nome"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              aria-label="Email"
+              required
+            />
+            <button type="submit" onclick="event.preventDefault()">Enviar</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+      <small>
+        <a href="mailto:seuemail@email.com">victoranghinonibunisses@email.com</a> •
+        <a href="https://www.instagram.com/victordeveloper_/#" target="_blank"
+          >@victordeveloper_</a
+        >
+      </small>
+    </footer>
+  </body>
+</html>
